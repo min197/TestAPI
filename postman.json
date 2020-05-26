@@ -1,0 +1,425 @@
+{
+	"info": {
+		"_postman_id": "0e85fc43-f09e-4069-915d-bb3cfc67ecc7",
+		"name": "github",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get by first_name",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "VfOUZ2Uv_2hiC992h47jH-VjxLy3niOsBtP1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public-api/users?first_name=Ola",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public-api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "first_name",
+							"value": "Ola"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST by Id",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "VfOUZ2Uv_2hiC992h47jH-VjxLy3niOsBtP1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "Min@mail.ru",
+							"type": "text"
+						},
+						{
+							"key": "first_name",
+							"value": "Min",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Du",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "male",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public-api/users",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public-api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST by Id Copy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "VfOUZ2Uv_2hiC992h47jH-VjxLy3niOsBtP1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "Min@mail.ru",
+							"type": "text"
+						},
+						{
+							"key": "first_name",
+							"value": "Min",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Du",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "male",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public-api/users",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public-api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET by Id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "VfOUZ2Uv_2hiC992h47jH-VjxLy3niOsBtP1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "Min@mail.ru",
+							"type": "text"
+						},
+						{
+							"key": "first_name",
+							"value": "Min",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Du",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "male",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public-api/users/1560",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public-api",
+						"users",
+						"1560"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gorest.co.in/public-api/users?first_name=Ola",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "VfOUZ2Uv_2hiC992h47jH-VjxLy3niOsBtP1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public-api/users?first_name=Ola",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public-api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "first_name",
+							"value": "Ola"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update by value",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "VfOUZ2Uv_2hiC992h47jH-VjxLy3niOsBtP1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"data\":{\n        \"first_name\": \"Min\"\n\t}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public-api/users/1566",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public-api",
+						"users",
+						"1566"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE by ID",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "VfOUZ2Uv_2hiC992h47jH-VjxLy3niOsBtP1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"data\":{\n        \"first_name\": \"Min\"\n\t}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public-api/users/1559",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public-api",
+						"users",
+						"1559"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test API with uncorected token",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "12312312312",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public-api/users",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public-api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST by uncorrected email and gender",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "VfOUZ2Uv_2hiC992h47jH-VjxLy3niOsBtP1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "Min@mail.ru",
+							"type": "text"
+						},
+						{
+							"key": "first_name",
+							"value": "Min",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "Du",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "Hello",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public-api/users",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public-api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
